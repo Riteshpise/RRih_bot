@@ -1,0 +1,53 @@
+{
+  "id": "30cb3391-da0f-4173-b0e3-9b99a1a62040",
+  "name": "Knowledge.Knowledge_samp.Java_main.Difference between a",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Abstract Class: It has a default constructor. \tIt has both abstract and non-abstract methods.\tIt contains instance variables.\tIt is extended in classes.\tInterface: It does not have any default constructor.   It has only an abstract method.    It contains only constants.    It is implemented in classes and methods defined in interfaces are implemented in the class."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Difference between abstract and interface",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da3f409c-f922-40e5-a86b-37b24244aa2d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

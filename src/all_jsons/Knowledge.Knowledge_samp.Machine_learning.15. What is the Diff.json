@@ -1,0 +1,53 @@
+{
+  "id": "b7f1c89e-c9b3-4deb-8088-0ff5060df2be",
+  "name": "Knowledge.Knowledge_samp.Machine_learning.15. What is the Diff",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Inductive Learning\tIt observes instances based on defined principles to draw a conclusion\nExample: Explaining to a child to keep away from the fire by showing a video where fire causes damage\nDeductive Learning       It concludes experiences\nExample: Allow the child to play with fire. If he or she gets burned, they will learn that it is dangerous and will refrain from making the same mistake again"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "15. What is the Difference Between Inductive Machine Learning and Deductive Machine Learning?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1376176a-0e5d-4dfc-a58d-8524846283d9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

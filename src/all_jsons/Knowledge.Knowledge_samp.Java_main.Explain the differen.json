@@ -1,0 +1,53 @@
+{
+  "id": "edb37627-1382-4b34-b719-b21e72269e78",
+  "name": "Knowledge.Knowledge_samp.Java_main.Explain the differen",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "JDK\t: JDK stands for Java Development Kit.\tJDK is used to compile and execute the Java package.\tIt consists of JRE + development tools.    JVM    : JVM stands for Java Virtual Machine.\tIt provides the specification for the runtime environment to run the bytecode of the java program.\tIt a superset that contains specification, Implementation, and runtime instances.\tJRE : JRE stands for Java Runtime Environment. \tIt provides the runtime environment to run the bytecode.   It is the virtual implementation of the JDK."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Explain the difference between the JDK, JRE, and JVM?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e30c4415-483e-4c4d-bed0-be6d5ab31d3e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

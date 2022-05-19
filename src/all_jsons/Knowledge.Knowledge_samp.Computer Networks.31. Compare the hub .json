@@ -1,0 +1,53 @@
+{
+  "id": "5d11837f-39ac-441c-acc8-ecf30bc389c3",
+  "name": "Knowledge.Knowledge_samp.Computer Networks.31. Compare the hub ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hub : Operates at Physical Layer, Half-Duplex transmission mode, Ethernet devices can be connected.   Switch :  Operates at Data Link Layer, Full-Duplex transmission mode, LAN devices can be connected."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Compare the hub vs switch",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "78dd9d6d-ceb8-46ca-925f-ea32964d9a01",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

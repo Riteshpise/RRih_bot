@@ -1,0 +1,53 @@
+{
+  "id": "d6a500d2-fc88-442f-9f04-a57fb8292143",
+  "name": "Knowledge.Knowledge_samp.Java_main.Differentiate betwee",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Java Constructor  : It is used to initialize the instance of the object.\tIt does not have any return type. The default constructor is available to initialize the value.\tThe constructor's name is the same name as that of the class.\tJava Method : It is used to expose the behaviour of an object.  It does have a return type. There is no default method is available. You can or cannot have the same name as that of the class."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Differentiate between Java constructor and Java method",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5910afe4-71dc-4d36-a9d0-2a6d99c0b3e3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

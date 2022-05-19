@@ -1,0 +1,53 @@
+{
+  "id": "35b2ec0b-c389-48d2-9253-b234071caa94",
+  "name": "Knowledge.Knowledge_samp.Machine_learning.10. What Are the Dif",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Machine Learning \t: Enables machines to take decisions on their own, based on past data\nEnables machines to take decisions on their own, based on past data\nWorks well on the low-end system, so you don't need large machines \nMost features need to be identified in advance and manually coded\nThe problem is divided into two parts and solved individually and then combined\nDeep Learning      : Enables machines to take decisions with the help of artificial neural networks\nIt needs a large amount of training data \nNeeds high-end machines because it requires a lot of computing power \nThe machine learns the features from the data it is provided\nThe problem is solved in an end-to-end manner"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "10. What Are the Differences Between Machine Learning and Deep Learning?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "582edd7a-9a8d-4420-83cd-22b0f48000ec",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

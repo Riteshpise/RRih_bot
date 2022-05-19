@@ -1,0 +1,53 @@
+{
+  "id": "c05b6518-60f9-4d64-9afa-443fa2dae429",
+  "name": "Knowledge.Knowledge_samp.Java_main.What is inheritance ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Answer may be: Inheritance means inheriting the properties of one class to another class. The class whose property is inherited is known as parent class and in which property is inherited is known as child class. The types of inheritance Java supports are: Single Inheritance: There are only two classes one is whose property is inheriting into another class. Multilevel Inheritance: Multiple classes exist in this. There is only one superclass. Example: Suppose there are three classes the property of the first class is inherited into the second class and the property of the second class is inherited into the third class. Hierarchical Inheritance: When the property of one class inherited into two child classes. One more inheritance exists in the OOPs i.e Multiple Inheritance but Java does not support multiple inheritances."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is inheritance and types of inheritance in Java?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "902f6ef0-cc04-4715-af2d-e2b463165a5b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "30da52e7-a928-4ea6-ac86-31f448e2bfbb",
+  "name": "Knowledge.Knowledge_samp.Computer Networks.29. Differentiate th",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "MAC Address :\tMedia Access Control Address\t  6 or 8-byte hexadecimal number\tIt is embedded with NIC\tPhysical Address.\t   IP Address :    Internet Protocol Address    4 (IPv4) or 16 (IPv6) Byte address    It is obtained from the network    Logical Address."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Differentiate the MAC address with the IP address",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "108d5e29-f014-4773-821d-d22e81bf5d4e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

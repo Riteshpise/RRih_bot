@@ -1,0 +1,63 @@
+{
+  "id": "43796dc8-7808-4a17-8417-315d535072d6",
+  "name": "Knowledge.Knowledge_samp.Computer Networks.23. Compare between ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "TCP/IP\t: Connection-Oriented Protocol\t,More Reliable, Slower Transmission, Packets order can be preserved or can be rearranged, Uses three ways handshake model for connection.    UDP : Connectionless Protocol, Less Reliable, Faster Transmission, Packets order is not fixed and packets are independent of each other, No handshake for establishing the connection."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Compare between TCP ",
+          "userDefined": false
+        },
+        {
+          "text": "and",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " UDP",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f0edeaa-5020-4cdb-9eda-009184dfd45f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

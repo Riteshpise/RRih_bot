@@ -1,0 +1,53 @@
+{
+  "id": "2f0c233e-8eab-4d01-a22b-e2614d201dd5",
+  "name": "Knowledge.Knowledge_samp.Java_main.Highlight the differ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Local Variable is declared inside the methods, constructor, and inside any other blocks. The scope of these variables is only inside the block where they are declared. You can not access these variables outside that particular block.\n\nInstance variables are declared inside the class, but not inside the method. These variables are bounded to its object itself. Each object is creating its individual copy. It won't affect any other variable if we are making changes in one instance."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Highlight the difference between local variable and instance variable",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a8f31b47-bff0-48a8-990b-156b7125ce3d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

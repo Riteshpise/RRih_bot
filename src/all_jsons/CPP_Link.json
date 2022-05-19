@@ -1,0 +1,77 @@
+{
+  "id": "4ec69635-4f76-4ab4-9bbd-563333affcc6",
+  "name": "CPP_Link",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 750000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.youtube.com/watch?v=yGB9jhsEsr8"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "video link for Cpp",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b3dc757-5efc-4f78-92c2-ef0970ba0674",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "need Cpp link",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b938ec0-f88f-41b8-b2d5-b5f3c26c84ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give link for Cpp",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2240945d-0812-457e-a8a2-0a3c151a1080",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "5e0ee9b9-339d-4c09-b540-a664aafc64a3",
+  "name": "Knowledge.Knowledge_samp.Java_main.Difference between t",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "this()  It belongs to the current instance of the class. It calls the default constructor of the same class. It accesses the method of the current class. It points to the instance of the current class. super() It belongs to the current instance of the parent class. It calls the default constructor of the parent class. It accesses the method of the parent class.   It points to the instance of the base class."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Difference between this() and super() in Java language.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb9e4618-11f2-417f-9d99-7dbc90c9eca3",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "b5228ae2-6026-4b3c-a0d5-77a6828b34fe",
+  "name": "Knowledge.Knowledge_samp.Java_main.List out the differe",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "break\t: It is used with conditional(if, if-else, switch) and loop statements(for, while, do-while).\tOnce the statement is executed it terminated the moment and come out of the block. \tIt terminates the innermost loop immediately.\tContinue    : It is used only with the loop statements.  Once the statement is executed it will jump to the next iteration. It skips the next set of statements after continue and jump to the next iteration."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "List out the difference between break and continue.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74c52e60-b9cb-4b45-8d6d-c3b2aaa95909",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

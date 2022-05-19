@@ -1,0 +1,58 @@
+{
+  "id": "e0e9ff6a-207a-424e-9eb4-bb666b81cd23",
+  "name": "Knowledge.Knowledge_samp.Computer Networks.32. What is the diff",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KnowledgeKnowledge_sampComputerNetworks32Whatisthediff-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ipconfig\t : Internet Protocol Configuration, Command used in Microsoft operating systems to view and configure network interfaces.  ifconfig : Interface Configuration, Command used in MAC, Linux, UNIX operating systems to view and configure network interfaces."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What is the difference between the ipconfig and the ifconfig?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b2cbd314-a7f9-4abd-939f-43c65ab78945",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

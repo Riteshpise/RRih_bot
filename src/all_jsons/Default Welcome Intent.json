@@ -1,0 +1,240 @@
+{
+  "id": "6ebc74fb-0f35-4347-96a0-a9ff54fc5d30",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb275d0f-6fc4-4253-9871-95823e22a933",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6436e6cf-1f29-4014-913b-e01c23d0f899",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ea288ce-371e-4bc9-b9c5-a8b961f8d583",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08a68721-32dd-42ef-87ef-4401b0862428",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96d01b2c-7b77-47be-84f8-7c3cb252edd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9bf01280-44fb-4e8b-ab5b-72bd709926b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ef4ea4b-d2a8-40c5-b463-661461f9b9ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f03daf5-eb3b-4540-99f1-bd9f0dda4e52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93354acb-4667-41af-b9b8-ad66eb22af24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bbd24b71-9a0e-4b40-9da9-7a3f6f5af9c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely day isn't it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04268474-9e8b-4ecb-8c6e-52bc40d450bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "087d8d32-be84-4b93-b4e5-b4017d7108cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7655cf4-f488-49b8-b7cb-25ffd30df44b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0eae8c77-8ca2-4b40-93da-32f7a5230593",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1ae1660-109f-4d62-a617-0649f2a23501",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a61ed16-3d8d-4f98-b59f-af9886aa3fe5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

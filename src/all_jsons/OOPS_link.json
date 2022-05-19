@@ -1,0 +1,89 @@
+{
+  "id": "485c9799-ac85-450f-9efe-2fb0e6e9562e",
+  "name": "OOPS_link",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "https://www.youtube.com/watch?v=-HafzawNlUo"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give link for OOPs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d0fccead-c65b-4c6d-a8a5-f6de400f5a6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "need OOPs link",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b67e238-ceca-4579-bbec-908b38e2ab76",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "link for OOPs",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f597430-c848-4a43-a2e3-0bce49386d99",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "video link for OOPs concepts",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "217afff5-a671-4995-88e9-78cbf689cf1d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

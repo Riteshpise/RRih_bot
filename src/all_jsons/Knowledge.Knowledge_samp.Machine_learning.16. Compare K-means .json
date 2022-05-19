@@ -1,0 +1,53 @@
+{
+  "id": "7730e111-54f8-4eab-8881-7270d982cce4",
+  "name": "Knowledge.Knowledge_samp.Machine_learning.16. Compare K-means ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "K-means\tK-Means is unsupervised\nK-Means is a clustering algorithm\nThe points in each cluster are similar to each other, and each cluster is different from its neighboring clusters\nKNN              KNN is supervised in nature\nKNN is a classification algorithm\nIt classifies an unlabeled observation based on its K (can be any number) surrounding neighbors"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "16. Compare K-means and KNN Algorithms.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "95f6cbd9-d2cf-49e0-a1ac-48a375fa6b0c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
