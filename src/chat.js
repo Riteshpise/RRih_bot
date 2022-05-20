@@ -3,7 +3,7 @@ import React, {useEffect}from 'react'
 function Chatbot() {
     useEffect(() =>{
         (function(d, m){
-            var kommunicateSettings = {"appId":"430ad8c4c2d068238b241e1e60c39e10","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var kommunicateSettings = {"appId":"your app id","popupWidget":true,"automaticChatOpenOnNavigation":true};
             var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
             s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
             var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
